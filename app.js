@@ -1,6 +1,3 @@
-console.log('sup');
+const imported = require('./users.js');
 
-const message = (name)=>{
-    console.log(`${name} is yoo`)
-}
-message('helllo')
+console.log(imported);
